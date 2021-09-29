@@ -1,15 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="https://col-css.netlify.app/css/column.css">
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:wght@900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/column.css">
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  
+  <div class="wraper">
+    <section id="hero">
+      <div class="container">
+        <header class="hero__header header-main flex between align">
+          <div class="header-main__logo">
+            <img src="./img/logo.svg" alt="logo">
+          </div>
+          <nav class="header-main__nav nav">
+            <ul class="nav__list flex align">
+              <li class="nav__item margin--m"><a class="nav__link" href="#">HOME</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">ABOUT US</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Create your plan</a></li>
+            </ul>
+          </nav>
+          <div class="header-main__menu">
+            <button class="header-main__close close"><i class='bx bx-x'></i></button>
+            <button class="header-main__btn"><i class='bx bx-menu'></i></button>
+          </div>
+        </header>
+        <div class="hero">
+          <div class="container-smal">
+            <h2 class="hero__title">Great coffee made simple.</h2>
+            <p class="hero__text">Start your mornings with the world’s best coffees. Try our expertly curated artisan
+              coffees from our best roasters delivered directly to your door, at your schedule.</p>
+            <a class="hero__btn btn" href="#">Create your plan</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <main>
+      <section id="colection">
+        <div class="container-smal">
+          <div class="colection__imgs">
+            <img src="./img/colection-img.png" alt="colection">
+          </div>
+          <ul class="colection__list flex between">
+            <li class="colection__item collect--img1">
+              <div class="colection__des">
+                <h4 class="colection__title tex">Gran Espresso</h4>
+                <p class="colection__text tex regular">Brazilian dark roast with rich and velvety body, and hints of
+                  fruits and nuts.</p>
+              </div>
+            </li>
+            <li class="colection__item collect--img2">
+              <div class="colection__des">
+                <h4 class="colection__title tex">Planalto</h4>
+                <p class="colection__text tex regular">Brazilian dark roast with rich and velvety body, and hints of
+                  fruits and nuts.</p>
+              </div>
+            </li>
+            <li class="colection__item collect--img3">
+              <div class="colection__des">
+                <h4 class="colection__title tex">Piccollo</h4>
+                <p class="colection__text tex regular">Brazilian dark roast with rich and velvety body, and hints of
+                  fruits and nuts.</p>
+              </div>
+            </li>
+            <li class="colection__item collect--img4">
+              <div class="colection__des">
+                <h4 class="colection__title tex">Danche</h4>
+                <p class="colection__text tex regular">Brazilian dark roast with rich and velvety body, and hints of
+                  fruits and nuts.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="choses">
+        <div class="container">
+          <div class="choses">
+            <div class="container-smal">
+              <h2 class="choses__title">Why choose us?</h2>
+              <p class="choses__text regular">A large part of our role is choosing which particular coffees will be
+                featured
+                in our range. This means working closely with the best coffee growers to give
+                you a more impactful experience on every level.</p>
+            </div>
+          </div>
+          <div class="container-smal">
+            <div class="choses__card">
+              <ul class="choses__list flex between">
+                <li class="choses__item choses1">
+                   <div class="choses__des">
+                      <h4 class="choses__iner-title">Best quality</h4>
+                      <p class="choses__iner-text">Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
+                  </div>
+                </li>
+                <li class="choses__item choses2 card-margin">
+                  <div class="choses__des">
+                    <h4 class="choses__iner-title">Best quality</h4>
+                    <p class="choses__iner-text">Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
+                </div>
+                </li>
+                <li class="choses__item choses3">
+                  <div class="choses__des">
+                    <h4 class="choses__iner-title">Best quality</h4>
+                    <p class="choses__iner-text">Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
+                </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="works">
+        <div class="container-smal">
+          <h3 class="works__title">How it works</h3>
+          <div class="works__graf flex align between"> 
+            <span class="works__slin"></span>
+            <span class="works__slin"></span>
+            <span class="works__slin"></span>
+          </div>
+          <ul class="works__list flex align"> 
+            <li class="works__item">
+              <p class="works__number">01</p>
+              <h2 class="works__iner-title">Pick your coffee</h2>
+              <p class="works__iner-text regular">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+            </li>
+            <li class="works__item works--margin">
+              <p class="works__number">02</p>
+              <h2 class="works__iner-title">Choose the frequency</h2>
+              <p class="works__iner-text regular">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+            </li>
+            <li class="works__item">
+              <p class="works__number">03</p>
+              <h2 class="works__iner-title">Receive and enjoy!</h2>
+              <p class="works__iner-text regular">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+            </li>
+          </ul>
+          <a class="works__btn btn" href="#">Create your plan</a>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="./js/main.js"></script>
+  <!-- @media screen and (max-width: 992px)
+  @media screen and (max-width:768px)
+  @media screen and (max-width:710px)
+  @media screen and (max-width:593px) -->
+  <!-- .container{
+    width: 90%;
+  }
+  .container-smal{
+    width: 90%;
+  } -->
 </body>
+
 </html>
